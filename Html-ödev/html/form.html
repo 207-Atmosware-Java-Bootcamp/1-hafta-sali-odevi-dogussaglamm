@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action ="form.html" method="get" autocomplete="on">
+        <div>
+            <label for="isim">Name:</label>
+            <input type="text" id="isim" name="isim" placeholder="your name" required autofocus /> <br>
+        </div>
+
+        <div>
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" name="Email" placeholder="your email" required autofocus /> <br>
+        </div>
+
+        <div>
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" placeholder="" required/>
+        </div>
+
+        <div>
+            <label for="Phone">Phone number:</label>
+            <input type="text" id="Phone number" name="Phone number" placeholder="" required autofocus /> <br>
+        </div>
+
+        <div>
+            <label for ="gender"> Gender :</label>
+            <label for="bayan">Kadın</label>
+            <input type="radio" id="Kadın" name="gender" checked  />
+       
+            <label for="erkek">Erkek</label>
+            <input type="radio" id="erkek" name="gender"  />
+         
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender"  /> <br>
+        </div>  
+        
+        <div>
+            <label for="language"> Language </label>
+            <select name="language" id="language" >
+                <option value="0" >Seçiniz</option>
+                <option value="langing" >ingilizce</option>
+                <option value="langfrench" >fransızca</option>
+                <option value="langesp" >ispanyolca</option>
+            </select>
+        </div>    
+        <div>
+
+            <label for="Zip code">Zip Code :</label>
+            <input type="Zip code" id="Zip code" name="Zip code" placeholder="" required/>
+        </div>    
+        <div>
+
+            <label for="About">About:</label>
+            <textarea> Write about yourself..</textarea> <br>
+        
+        </div>
+        
+        <button>Register</button>
+        
+    </form>
+</body>
+</html>
